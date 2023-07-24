@@ -1,0 +1,10 @@
+h1{
+    color: blueviolet;
+}
+.box{
+    width: 50%;
+    height: 120px;
+    text-align: center;
+    border: solid 2px yellow;
+    border-radius: 10px;
+}
