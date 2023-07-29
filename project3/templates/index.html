@@ -6,7 +6,12 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    <h1>hello project 3</h1>
-    <div class="box"></div>
+    <form method="POST">
+        <input type="text" name="title" placeholder="title">
+        <input type="text" name="author" placeholder="author">
+        <input type="date" name="date" placeholder="date">
+        <input type="submit">
+    </form>
+    <a href="/books">books</a>
 </body>
 </html>
